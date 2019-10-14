@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link type="text/css" rel="stylesheet" href="src/css/style.css"/>
+
+    <title>Ziio's Canvas</title>
+</head>
+ 
+<body>
+    <div class="container-fluid">
+    <img id="logo" src="src/images/raimuLogo.png" alt="raimu" width=300 height=100>
+    <ul class="nav nav-pills mb-3 justify-content-end" id="pills-tab" role="tablist">
+        <li class="badge">
+          <a class="nav-link active btn-outline-dark" id="pills-aboutUs-tab" data-toggle="pill" href="#pills-aboutUs" role="tab" aria-controls="pills-aboutUs" aria-selected="true">About Us</a>
+        </li>
+        <li class="badge">
+          <a class="nav-link btn-outline-dark" id="pills-shop-tab" data-toggle="pill" href="#pills-shop" role="tab" aria-controls="pills-shop" aria-selected="false">Shop</a>
+        </li>
+        <li class="badge">
+          <a class="nav-link btn-outline-dark" id="pills-studio-tab" data-toggle="pill" href="#pills-studio" role="tab" aria-controls="pills-studio" aria-selected="false">Studio</a>
+        </li>
+      </ul>
+    </div><!--container-->
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-aboutUs" role="tabpanel" aria-labelledby="pills-aboutUs-tab">
+            <h1 class= "title">&nbsp;&nbsp;About Us&nbsp;&nbsp;</h1>
+            <div class="textBox">
+            <p class= "aboutText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Sed augue lacus viverra vitae congue. Lacus vestibulum sed arcu non. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Dignissim suspendisse in est ante in nibh. Ultricies mi quis hendrerit dolor magna eget est lorem. Id leo in vitae turpis massa sed elementum tempus. Nibh nisl condimentum id venenatis a condimentum vitae sapien. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Nulla malesuada pellentesque elit eget. Urna porttitor rhoncus dolor purus non enim praesent. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Et tortor consequat id porta nibh venenatis cras sed felis. Felis bibendum ut tristique et egestas quis. Diam quam nulla porttitor massa id neque aliquam vestibulum. Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit.</p>
+            </div>
+
+        </div>
+
+        <div class="tab-pane fade" id="pills-shop" role="tabpanel" aria-labelledby="pills-shop-tab">
+            <h1 class= "title">&nbsp;&nbsp;Shop&nbsp;&nbsp;</h1>
+                <div class="container shopBox">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card">
+                    <img src="https://picsum.photos/200" class="card-img-top" alt="Random Picture">
+                        <div class="card-body">
+                            <h5 class="itemTitle">Item 1</h5>
+                            <p class="card-text">Price: $0.00</p>
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo">More info!</button>
+                            <!-- Modal -->
+                                <div class="modal fade" id="itemInfo" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="itemTitle">Item</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                            Ipsum dolor sit amet consectetur adipiscing. Mattis molestie a iaculis at erat pellentesque adipiscing. Mattis enim ut tellus elementum. Egestas pretium aenean pharetra magna ac placerat. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Malesuada nunc vel risus commodo. Tellus at urna condimentum mattis. Morbi tristique senectus et netus et malesuada fames ac. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Mauris nunc congue nisi vitae suscipit tellus mauris. Viverra orci sagittis eu volutpat odio facilisis.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-light">Add to Cart</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                    <img src="https://picsum.photos/200" class="card-img-top" alt="Random Picture">
+                        <div class="card-body">
+                            <h5 class="itemTitle">Item 2</h5>
+                            <p class="card-text">Price: $0.00</p>
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo">More info!</button>
+                            <!-- Modal -->
+                                <div class="modal fade" id="itemInfo" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="itemTitle">Item</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                            Ipsum dolor sit amet consectetur adipiscing. Mattis molestie a iaculis at erat pellentesque adipiscing. Mattis enim ut tellus elementum. Egestas pretium aenean pharetra magna ac placerat. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Malesuada nunc vel risus commodo. Tellus at urna condimentum mattis. Morbi tristique senectus et netus et malesuada fames ac. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Mauris nunc congue nisi vitae suscipit tellus mauris. Viverra orci sagittis eu volutpat odio facilisis.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-light">Add to Cart</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                    <img src="https://picsum.photos/200" class="card-img-top" alt="Random Picture">
+                        <div class="card-body">
+                            <h5 class="itemTitle">Item 3</h5>
+                             <p class="card-text">Price: $0.00</p>
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo">More info!</button>
+                            <!-- Modal -->
+                                <div class="modal fade" id="itemInfo" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="itemTitle">Item</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                            Ipsum dolor sit amet consectetur adipiscing. Mattis molestie a iaculis at erat pellentesque adipiscing. Mattis enim ut tellus elementum. Egestas pretium aenean pharetra magna ac placerat. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Malesuada nunc vel risus commodo. Tellus at urna condimentum mattis. Morbi tristique senectus et netus et malesuada fames ac. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Mauris nunc congue nisi vitae suscipit tellus mauris. Viverra orci sagittis eu volutpat odio facilisis.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-light">Add to Cart</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="https://picsum.photos/200" class="card-img-top" alt="Random Picture">
+                                    <div class="card-body">
+                                        <h5 class="itemTitle">Item 4</h5>
+                                        <p class="card-text">Price: $0.00</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo">More info!</button>
+                                        <!-- Modal -->
+                                            <div class="modal fade" id="itemInfo" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="itemTitle">Item</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                        Ipsum dolor sit amet consectetur adipiscing. Mattis molestie a iaculis at erat pellentesque adipiscing. Mattis enim ut tellus elementum. Egestas pretium aenean pharetra magna ac placerat. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Malesuada nunc vel risus commodo. Tellus at urna condimentum mattis. Morbi tristique senectus et netus et malesuada fames ac. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Mauris nunc congue nisi vitae suscipit tellus mauris. Viverra orci sagittis eu volutpat odio facilisis.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-light">Add to Cart</button>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="https://picsum.photos/200" class="card-img-top" alt="Random Picture">
+                                    <div class="card-body">
+                                        <h5 class="itemTitle">Item 5</h5>
+                                        <p class="card-text">Price: $0.00</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo">More info!</button>
+                                        <!-- Modal -->
+                                            <div class="modal fade" id="itemInfo" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="itemTitle">Item</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                        Ipsum dolor sit amet consectetur adipiscing. Mattis molestie a iaculis at erat pellentesque adipiscing. Mattis enim ut tellus elementum. Egestas pretium aenean pharetra magna ac placerat. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Malesuada nunc vel risus commodo. Tellus at urna condimentum mattis. Morbi tristique senectus et netus et malesuada fames ac. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Mauris nunc congue nisi vitae suscipit tellus mauris. Viverra orci sagittis eu volutpat odio facilisis.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-light">Add to Cart</button>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="https://picsum.photos/200" class="card-img-top" alt="Random Picture">
+                                    <div class="card-body">
+                                        <h5 class="itemTitle">Item 6</h5>
+                                         <p class="card-text">Price: $0.00</p>
+                                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo">More info!</button>
+                                        <!-- Modal -->
+                                            <div class="modal fade" id="itemInfo" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="itemTitle">Item</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                        Ipsum dolor sit amet consectetur adipiscing. Mattis molestie a iaculis at erat pellentesque adipiscing. Mattis enim ut tellus elementum. Egestas pretium aenean pharetra magna ac placerat. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Malesuada nunc vel risus commodo. Tellus at urna condimentum mattis. Morbi tristique senectus et netus et malesuada fames ac. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Mauris nunc congue nisi vitae suscipit tellus mauris. Viverra orci sagittis eu volutpat odio facilisis.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-light">Add to Cart</button>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="tab-pane fade" id="pills-studio" role="tabpanel" aria-labelledby="pills-studio-tab">
+            <h1 class= "title">&nbsp;&nbsp;Studio&nbsp;&nbsp;</h1>
+            <h4>Nec feugiat nisl pretium fusce id. Leo vel orci porta non. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Fermentum iaculis eu non diam phasellus vestibulum lorem. Tempor orci eu lobortis elementum. Sit amet justo donec enim. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Tincidunt vitae semper quis lectus nulla at volutpat. In nibh mauris cursus mattis molestie. Vel facilisis volutpat est velit egestas dui id ornare arcu. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Vitae auctor eu augue ut. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Id eu nisl nunc mi ipsum faucibus vitae aliquet nec. Fringilla est ullamcorper eget nulla facilisi etiam.</h4>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="src/js/script.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
