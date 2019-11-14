@@ -12,10 +12,9 @@
  
 <body>
     <div class="container-fluid">
-    <img id="logo" src="src/images/raimuLogo.png" alt="raimu" width=300 height=100>
-    <ul class="nav nav-pills mb-3 justify-content-end" id="pills-tab" role="tablist">
+    <ul class="nav navbar nav-pills mb-3 justify-content-center fixed-top" id="pills-tab" role="tablist">
         <li class="badge">
-          <a class="nav-link active btn-outline-dark" id="pills-aboutMe-tab" data-toggle="pill" href="#pills-aboutMe" role="tab" aria-controls="pills-aboutMe" aria-selected="true">About Me</a>
+          <a class="nav-link active btn-outline-dark" id="pills-about-tab" data-toggle="pill" href="#pills-about" role="tab" aria-controls="pills-about" aria-selected="true">About</a>
         </li>
         <li class="badge">
           <a class="nav-link btn-outline-dark" id="pills-canvas-tab" data-toggle="pill" href="#pills-canvas" role="tab" aria-controls="pills-canvas" aria-selected="false">Canvas</a>
@@ -26,9 +25,12 @@
       </ul>
     </div><!--container-->
     <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-aboutMe" role="tabpanel" aria-labelledby="pills-aboutMe-tab">
+        <div class="tab-pane fade show active" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab">
             <h1 class= "title">&nbsp;&nbsp;About Me&nbsp;&nbsp;</h1>
             <div class="textBox">
+                    <div id="cardAbout">
+                            <img src="https://picsum.photos/200" class="card" id="cardAbout" height="300" width="300" alt="Random Picture">
+                                    </div>
             <p class= "aboutText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Sed augue lacus viverra vitae congue. Lacus vestibulum sed arcu non. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Dignissim suspendisse in est ante in nibh. Ultricies mi quis hendrerit dolor magna eget est lorem. Id leo in vitae turpis massa sed elementum tempus. Nibh nisl condimentum id venenatis a condimentum vitae sapien. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Nulla malesuada pellentesque elit eget. Urna porttitor rhoncus dolor purus non enim praesent. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Et tortor consequat id porta nibh venenatis cras sed felis. Felis bibendum ut tristique et egestas quis. Diam quam nulla porttitor massa id neque aliquam vestibulum. Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit.</p>
             </div>
 
@@ -50,7 +52,7 @@
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="itemTitle">Item</h5>
+                                        <h5 class="modal-title" id="itemTitle">Item 1</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                         </button>
@@ -74,19 +76,19 @@
                         <div class="card-body">
                             <h5 class="itemTitle">Item 2</h5>
                             <p class="card-text">Price: $0.00</p>
-                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo">More info!</button>
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo2">More info!</button>
                             <!-- Modal -->
-                                <div class="modal fade" id="itemInfo" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
+                                <div class="modal fade" id="itemInfo2" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="itemTitle">Item</h5>
+                                        <h5 class="modal-title" id="itemTitle">Item 2</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                            Ipsum dolor sit amet consectetur adipiscing. Mattis molestie a iaculis at erat pellentesque adipiscing. Mattis enim ut tellus elementum. Egestas pretium aenean pharetra magna ac placerat. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Malesuada nunc vel risus commodo. Tellus at urna condimentum mattis. Morbi tristique senectus et netus et malesuada fames ac. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Mauris nunc congue nisi vitae suscipit tellus mauris. Viverra orci sagittis eu volutpat odio facilisis.
+                                            hi
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -104,13 +106,13 @@
                         <div class="card-body">
                             <h5 class="itemTitle">Item 3</h5>
                              <p class="card-text">Price: $0.00</p>
-                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo">More info!</button>
+                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo3">More info!</button>
                             <!-- Modal -->
-                                <div class="modal fade" id="itemInfo" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
+                                <div class="modal fade" id="itemInfo3" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="itemTitle">Item</h5>
+                                        <h5 class="modal-title" id="itemTitle">Item 3</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                         </button>
@@ -136,13 +138,13 @@
                                     <div class="card-body">
                                         <h5 class="itemTitle">Item 4</h5>
                                         <p class="card-text">Price: $0.00</p>
-                                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo">More info!</button>
+                                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo4">More info!</button>
                                         <!-- Modal -->
-                                            <div class="modal fade" id="itemInfo" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
+                                            <div class="modal fade" id="itemInfo4" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered" role="document">
                                                 <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title" id="itemTitle">Item</h5>
+                                                    <h5 class="modal-title" id="itemTitle">Item 4</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                     </button>
@@ -166,13 +168,13 @@
                                     <div class="card-body">
                                         <h5 class="itemTitle">Item 5</h5>
                                         <p class="card-text">Price: $0.00</p>
-                                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo">More info!</button>
+                                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo5">More info!</button>
                                         <!-- Modal -->
-                                            <div class="modal fade" id="itemInfo" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
+                                            <div class="modal fade" id="itemInfo5" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered" role="document">
                                                 <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title" id="itemTitle">Item</h5>
+                                                    <h5 class="modal-title" id="itemTitle">Item 5</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                     </button>
@@ -196,13 +198,13 @@
                                     <div class="card-body">
                                         <h5 class="itemTitle">Item 6</h5>
                                          <p class="card-text">Price: $0.00</p>
-                                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo">More info!</button>
+                                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#itemInfo6">More info!</button>
                                         <!-- Modal -->
-                                            <div class="modal fade" id="itemInfo" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
+                                            <div class="modal fade" id="itemInfo6" tabindex="-1" role="dialog" aria-labelledby="itemTitle" aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered" role="document">
                                                 <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title" id="itemTitle">Item</h5>
+                                                    <h5 class="modal-title" id="itemTitle">Item 6</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                     </button>
@@ -226,7 +228,41 @@
 
         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
             <h1 class= "title">&nbsp;&nbsp;Contacts&nbsp;&nbsp;</h1>
-            <h4>Nec feugiat nisl pretium fusce id. Leo vel orci porta non. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Fermentum iaculis eu non diam phasellus vestibulum lorem. Tempor orci eu lobortis elementum. Sit amet justo donec enim. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Tincidunt vitae semper quis lectus nulla at volutpat. In nibh mauris cursus mattis molestie. Vel facilisis volutpat est velit egestas dui id ornare arcu. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Vitae auctor eu augue ut. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Id eu nisl nunc mi ipsum faucibus vitae aliquet nec. Fringilla est ullamcorper eget nulla facilisi etiam.</h4>
+            <div class="contactBox">
+                <div class="container-fluid">
+                        <div class="row">
+                                <div class="col-3">
+                                  <div class="nav contactNav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                    <a class="nav-link navContact btn-outline-light active" id="v-pills-github-tab" data-toggle="pill" href="#v-pills-github" role="tab" aria-controls="v-pills-github" aria-selected="true">Github</a>
+                                    <a class="nav-link navContact btn-outline-light" id="v-pills-fb-tab" data-toggle="pill" href="#v-pills-fb" role="tab" aria-controls="v-pills-fb" aria-selected="false">Facebook</a>
+                                    <a class="nav-link navContact btn-outline-light" id="v-pills-ig-tab" data-toggle="pill" href="#v-pills-ig" role="tab" aria-controls="v-pills-ig" aria-selected="false">Instagram</a>
+                                    <a class="nav-link navContact btn-outline-light" id="v-pills-nav4-tab" data-toggle="pill" href="#v-pills-nav4" role="tab" aria-controls="v-pills-nav4" aria-selected="false">nav4</a>
+                                  </div>
+                                </div>
+                                <div class="col-9">
+                                  <div class="tab-content contactPage" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-github" role="tabpanel" aria-labelledby="v-pills-github-tab">
+                                        <a href="https://github.com/Ziio" target="_blank">
+                                        <img src="../canvas/src/images/githubClear300.png" class="companyLogo" id="contactCard" alt="https://github.com/Ziio">
+                                        </a>
+                                        <p class="contactTextbox">Ipsum dolor sit amet consectetur adipiscing. Mattis molestie a iaculis at erat pellentesque adipiscing. Mattis enim ut tellus elementum. Egestas pretium aenean pharetra magna ac placerat. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Malesuada nunc vel risus commodo. Tellus at urna condimentum mattis. Morbi tristique senectus et netus et malesuada fames ac. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Mauris nunc congue nisi vitae suscipit tellus mauris. Viverra orci sagittis eu volutpat odio facilisis.</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-fb" role="tabpanel" aria-labelledby="v-pills-fb-tab">                                  <a href="https://www.facebook.com/calvinleung0" target="_blank">
+                                        <img src="../canvas/src/images/fbLogo300.png" class="companyLogo" id="contactCard" alt="https://www.facebook.com/calvinleung0">
+                                        </a>
+                                        <p class="contactTextbox">Ipsum dolor sit amet consectetur adipiscing. Mattis molestie a iaculis at erat pellentesque adipiscing. Mattis enim ut tellus elementum. Egestas pretium aenean pharetra magna ac placerat. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Malesuada nunc vel risus commodo. Tellus at urna condimentum mattis. Morbi tristique senectus et netus et malesuada fames ac. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Mauris nunc congue nisi vitae suscipit tellus mauris. Viverra orci sagittis eu volutpat odio facilisis.</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-ig" role="tabpanel" aria-labelledby="v-pills-ig-tab">                                <a href="https://www.instagram.com/zhii.o/" target="_blank">
+                                        <img src="../canvas/src/images/igLogo300.png" class="companyLogo" id="contactCard" alt="https://www.instagram.com/zhii.o/">
+                                        </a>
+                                        <p class="contactTextbox">Ipsum dolor sit amet consectetur adipiscing. Mattis molestie a iaculis at erat pellentesque adipiscing. Mattis enim ut tellus elementum. Egestas pretium aenean pharetra magna ac placerat. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Malesuada nunc vel risus commodo. Tellus at urna condimentum mattis. Morbi tristique senectus et netus et malesuada fames ac. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Mauris nunc congue nisi vitae suscipit tellus mauris. Viverra orci sagittis eu volutpat odio facilisis.</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-nav4" role="tabpanel" aria-labelledby="v-pills-nav4-tab">Content 4</div>
+                                  </div>
+                                </div>
+                              </div>
+                </div>
+            </div>
         </div>
 
     </div>
