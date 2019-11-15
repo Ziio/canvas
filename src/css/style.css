@@ -12,8 +12,9 @@ body {
 
 .card {
     margin-bottom: 30px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.55);
     padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
 }
 
@@ -59,6 +60,7 @@ a.nav-link.navContact {
     padding: 0px;
     width: auto;
     height: auto;
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .nav.navbar {
@@ -110,10 +112,9 @@ a.nav-link.navContact {
   }
 
 .textBox { 
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.55);
     margin: 30px;
-    border: 1px solid black;
-    opacity: 0.55;
+    border: 1px solid rgba(0, 0, 0, 0);
     filter: alpha(opacity=60);
     border-radius: 15px;
     color: white;
