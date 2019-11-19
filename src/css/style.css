@@ -71,6 +71,10 @@ a.nav-link.navContact {
     border: 0px;
 }
 
+.modal-body {
+    padding-top: 0px;
+}
+
 .modal-footer {
     border: 0px;
 }
@@ -121,6 +125,14 @@ a.nav-link.navContact {
 
 .title {
     color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration: underline overline;
+}
+
+#itemTitle {
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
