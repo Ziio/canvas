@@ -18,11 +18,19 @@ body {
     border-radius: 10px;
 }
 
+.col-sm-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .card-body {
     padding-bottom: 5px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .itemTitle {
+    text-align: center;
     color: white;
 }
 
@@ -32,7 +40,15 @@ body {
 
 .btn {
     color: white;
-    background-color: rgba(119, 174, 255, 0.75);
+    background-color: rgba(90, 95, 130, 0.75);
+}
+
+a.btn.explore {
+    background-color: rgb(177, 132, 157, 0.75);
+}
+
+a.btn.explore:hover {
+    background-color: rgba(214, 188, 199, 0.9);
 }
 
 a.nav-link.navContact {
@@ -43,11 +59,20 @@ a.nav-link.navContact {
 }
 
 .modal-content {
+    align-items: center;
     color: white;
     margin-bottom: 30px;
-    background-color: rgba(37, 44, 87, 0.9);
+    background-color: rgba(38, 43, 60, 0.9);
     padding: 15px;
     border-radius: 10px;
+}
+
+.modal-header {
+    border: 0px;
+}
+
+.modal-footer {
+    border: 0px;
 }
 
 .btn-outline-dark {
